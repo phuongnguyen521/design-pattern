@@ -19,7 +19,7 @@ namespace CreationalPatterns.Advanced.Factory.ZooManagement.Animals
 
         public Animal()
         {
-               
+
         }
 
         public Animal(string ID, string name, int legs, float weight, string action, string feature, string? color, int? swing)
@@ -54,12 +54,12 @@ namespace CreationalPatterns.Advanced.Factory.ZooManagement.Animals
             _color = color;
         }
 
-        public override string _ID { get; set; } 
-        
+        public override string _ID { get; set; }
+
         public override string _name { get; set; }
-        
+
         public override int _legs { get; set; }
-    
+
         public override float _weight { get; set; }
 
 
@@ -115,9 +115,10 @@ namespace CreationalPatterns.Advanced.Factory.ZooManagement.Animals
             if (_color is not null)
             {
                 Console.WriteLine($"ID: {_ID}\nName: {_name}\nLegs: {_legs}\nWeight: {_weight}" +
-                $"\nFeatures: {_feature}\nActions: {_action}\nColor: {_color}" 
+                $"\nFeatures: {_feature}\nActions: {_action}\nColor: {_color}"
                 + $"\nWings: {_swing}");
-            } else
+            }
+            else
             {
                 Console.WriteLine($"ID: {_ID}\nName: {_name}\nLegs: {_legs}\nWeight: {_weight}" +
                 $"\nFeatures: {_feature}\nActions: {_action}"

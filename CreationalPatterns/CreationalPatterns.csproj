@@ -4,7 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
-    <StartupObject>CreationalPatterns.Advanced.Factory.ZooManagement.Implementation</StartupObject>
+    <StartupObject>CreationalPatterns.Advanced.Abstract_Factory.AbstractFactoryClientDemo</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Advanced\Abstract Factory\ClockManagement\" />
+  </ItemGroup>
 
 </Project>
