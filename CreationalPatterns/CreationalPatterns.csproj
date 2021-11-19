@@ -4,11 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
-    <StartupObject>CreationalPatterns.Advanced.Abstract_Factory.AbstractFactoryClientDemo</StartupObject>
+    <StartupObject>CreationalPatterns.Advanced.Abstract_Factory.ClockManagement.Implementation</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Advanced\Abstract Factory\ClockManagement\" />
-  </ItemGroup>
 
 </Project>
