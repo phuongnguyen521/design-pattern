@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CreationalPatterns.Foundation.Builder.Toys.DirectorToy">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="System.Object" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.562" />
+        <Point X="6.5" Y="5.125" />
+        <Point X="2.312" Y="5.125" />
+        <Point X="2.312" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Foundation\Builder\Toys\DirectorToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreationalPatterns.Foundation.Builder.Toys.Implementation">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Foundation\Builder\Toys\DirectorToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreationalPatterns.Foundation.Builder.Toys.ToyABuilder" BaseTypeListCollapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAABAAAgAgAAAAAAAAEAAAAAAAACAA=</HashCode>
+      <FileName>Foundation\Builder\Toys\IToyBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CreationalPatterns.Foundation.Builder.Toys.ToyBBuilder" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAABAAAgAgAAAAAAAAEAAAAAAAACAA=</HashCode>
+      <FileName>Foundation\Builder\Toys\IToyBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CreationalPatterns.Foundation.Builder.Toys.Toy">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAABAAAAAAAAAAAEQAgAAAAAAAA=</HashCode>
+      <FileName>Foundation\Builder\Toys\Toy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="CreationalPatterns.Foundation.Builder.Toys.IToyBuilder">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAABAAAgAAAAAAAAAAEAAAAAAAACAA=</HashCode>
+      <FileName>Foundation\Builder\Toys\IToyBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
