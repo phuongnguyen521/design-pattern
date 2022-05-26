@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StructuralPatterns.Advanced.Adapter.JapaneseAdaptee">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Advanced\Adapter\JapaneseAdaptee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StructuralPatterns.Advanced.Adapter.TranslatorAdapter">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Advanced\Adapter\TranslatorAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StructuralPatterns.Advanced.Adapter.VietnameseClient">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Advanced\Adapter\VietnameseClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="StructuralPatterns.Advanced.Adapter.IVietnameseTarget">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Advanced\Adapter\IVietnameseTarget.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

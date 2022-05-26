@@ -32,9 +32,6 @@
   </Class>
   <Class Name="CreationalPatterns.Foundation.Builder.Toys.ToyBBuilder" BaseTypeListCollapsed="true">
     <Position X="7.75" Y="5.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="true" />
-    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAQAACAAAAAAABAAAgAgAAAAAAAAEAAAAAAAACAA=</HashCode>
       <FileName>Foundation\Builder\Toys\IToyBuilder.cs</FileName>
