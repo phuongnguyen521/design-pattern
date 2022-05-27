@@ -1,6 +1,7 @@
 ﻿
 namespace CreationalPatterns.Advanced.Builder
 {
+    //This is item
     public interface Item
     {
         public string name();
