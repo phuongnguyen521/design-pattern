@@ -13,7 +13,7 @@ namespace StructuralPatterns.Advanced.Adapter
             Console.WriteLine($"Reading words: {words}");
             string englishWords = translate(words);
             Console.WriteLine("Sending words...");
-            receive(words);
+            receive(englishWords);
         }
 
         private string translate(string englishWords)

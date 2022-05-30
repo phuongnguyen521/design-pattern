@@ -20,7 +20,7 @@ namespace StructuralPatterns.Advanced.Adapter
             Console.WriteLine($"Reading words: {words}");
             string vietnameseWords = translate(words);
             Console.WriteLine("Sending words...");
-            adaptee.receive(words);
+            adaptee.receive(vietnameseWords);
         }
 
         private string translate(string vietnameseWords)

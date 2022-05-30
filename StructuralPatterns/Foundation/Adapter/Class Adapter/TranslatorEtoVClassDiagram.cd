@@ -4,21 +4,21 @@
     <Position X="1.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Advanced\Adapter\EnglishClient.cs</FileName>
+      <FileName>Foundation\Adapter\Class Adapter\EnglishClient.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="StructuralPatterns.Advanced.Adapter.VietnameseAdaptee">
+  <Class Name="StructuralPatterns.Advanced.Adapter.VietnameseAdaptee" Collapsed="true">
     <Position X="7.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
-      <FileName>Advanced\Adapter\VietnameseAdaptee.cs</FileName>
+      <FileName>Foundation\Adapter\Class Adapter\VietnameseAdaptee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="StructuralPatterns.Advanced.Adapter.TranslatorEtoVAdapter">
+  <Class Name="StructuralPatterns.Advanced.Adapter.TranslatorEtoVAdapter" Collapsed="true">
     <Position X="4.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
-      <FileName>Advanced\Adapter\TranslatorEtoVAdapter.cs</FileName>
+      <FileName>Foundation\Adapter\Class Adapter\TranslatorEtoVAdapter.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -26,7 +26,7 @@
     <Position X="4.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Advanced\Adapter\IEnglishTarget.cs</FileName>
+      <FileName>Foundation\Adapter\Class Adapter\IEnglishTarget.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
